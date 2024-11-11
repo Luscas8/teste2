@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang=”pt-br”>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h2>Cadastro</h2>
+    <form action="backend/register.php" method="POST">
+        <label for="username">Usuario:</label>
+        <input type="text" name="username" required>
+        <label for="password">Senha:</label>
+        <input type="password" name="password" required>
+        <button type="submit">Registro</button>
+    </form>
+    <p>Já tem uma conta? <a href="index.html">Login Aqui!</a></p>
+</body>
+</html>
